@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Romanica;
+    src: url(fonts/Romanica.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+hr{
+    margin: 0.5vw;
+}
+.front_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #ffe400; */
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.username{
+    font-family: Ubuntu;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #606060;
+    text-shadow: 1px 1px 1px #000000b8;
+}
+.logo img{
+    border: 0.2vw solid #606060;
+    border-radius: 50%;
+    box-shadow: 0.3vw 0.3vw 0.4vw #0000002e;
+    width: 10vw;
+    height: 10vw;
+}
+.infobox{
+    width: 89vw;
+    margin: 3vw;
+    padding: 2vw;
+    background-color: #fbfbfb;
+    border-radius: 1.1vw;
+    box-shadow: 0vw 0vw 0.3vw #606060;
+    font-size: 1vw;
+}
+.refer, reference{
+    margin: 0.5vw;
+}
+.refer{
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+.reference_social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reference{
+    font-family: Romanica;
+}
+.instagram img{
+    width: 2vw;
+    height: 2vw;
+}
+.facebook img{
+    width: 2vw;
+    height: 2vw;
+}
+.twitter img{
+    width: 2vw;
+    height: 2vw;
+}
+@media screen and (max-width: 480px) {
+    .logo img{
+        border: 1vw solid #606060;
+        border-radius: 50%;
+        box-shadow: 0.5vw 0.5vw 1.5vw #00000040;
+        height: 25vw;
+        width: 25vw;
+    }
+    .username{
+    font-size: 6vw;
+    font-weight: bold;
+    color: #5a5a5a;
+    /* text-shadow: 0.2vw 0.2vw 0.4vw #000000b8; */
+    text-shadow: 0vw 0vw 1vw #d6d6d6;
+    }
+    .infobox{
+        box-shadow: 0vw 0vw 0.8vw #60606073;
+        border-radius: 3vw;
+        font-size: 5vw;
+    }
+    .facebook img{
+        width: 10vw;
+        height: 10vw;
+    }
+    .instagram img{
+        width: 9vw;
+        height: 9vw;
+    }
+    .twitter img{
+        width: 9vw;
+        height: 9vw;
+    }
+}
